@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamsExamples", "ParamsExa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleExamples", "TupleExamples\TupleExamples.csproj", "{5005CC36-D813-4D05-A006-EED188B9B1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnoynmousObjectExamples", "AnnoynmousObjectExamples\AnnoynmousObjectExamples.csproj", "{6770DFF1-A97A-4FD6-9A5C-AACC0D83CBA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnnoynmousObjectExamples", "AnnoynmousObjectExamples\AnnoynmousObjectExamples.csproj", "{6770DFF1-A97A-4FD6-9A5C-AACC0D83CBA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypeExamples", "NullableTypeExamples\NullableTypeExamples.csproj", "{2FBE57BD-4E71-45A3-BD63-612D2EC543C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{6770DFF1-A97A-4FD6-9A5C-AACC0D83CBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6770DFF1-A97A-4FD6-9A5C-AACC0D83CBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6770DFF1-A97A-4FD6-9A5C-AACC0D83CBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBE57BD-4E71-45A3-BD63-612D2EC543C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBE57BD-4E71-45A3-BD63-612D2EC543C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBE57BD-4E71-45A3-BD63-612D2EC543C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBE57BD-4E71-45A3-BD63-612D2EC543C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
