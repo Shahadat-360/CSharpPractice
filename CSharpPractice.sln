@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework", "EntityFr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemExample", "FileSystemExample\FileSystemExample.csproj", "{BFE86234-7F1D-468B-8689-EF6E7C68212A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExample", "EntityFrameworkExample\EntityFrameworkExample.csproj", "{A95DED0D-2905-4413-A20E-E00EE35C9A26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkExample", "EntityFrameworkExample\EntityFrameworkExample.csproj", "{A95DED0D-2905-4413-A20E-E00EE35C9A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdonetExample", "AdonetExample\AdonetExample.csproj", "{987F1466-58E4-4608-A367-3338F7AA121F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{A95DED0D-2905-4413-A20E-E00EE35C9A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95DED0D-2905-4413-A20E-E00EE35C9A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95DED0D-2905-4413-A20E-E00EE35C9A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987F1466-58E4-4608-A367-3338F7AA121F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987F1466-58E4-4608-A367-3338F7AA121F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987F1466-58E4-4608-A367-3338F7AA121F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987F1466-58E4-4608-A367-3338F7AA121F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
