@@ -12,7 +12,7 @@ namespace EntityFramework
         private readonly string _connectionString; 
         public ShopDbContext()
         {
-            _connectionString = "Server=SHAHADATPC\\SQLEXPRESS;Database=CSharpB17;User Id=Shahadat16;Password=123456;Trust Server Certificate=True";
+            _connectionString = "Server=SHAHADATPC\\SQLEXPRESS;Database=simple;User Id=simple;Password=123456;Trust Server Certificate=True";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
