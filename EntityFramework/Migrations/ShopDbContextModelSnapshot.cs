@@ -39,7 +39,7 @@ namespace EntityFramework.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customers", (string)null);
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("EntityFramework.Product", b =>
@@ -63,7 +63,7 @@ namespace EntityFramework.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("EntityFramework.PurchaseOrder", b =>

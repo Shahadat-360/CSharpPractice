@@ -14,7 +14,7 @@ namespace EntityFrameworkExample
         public ShopDbContext()
         {
             //_conntectionString= "Server=SHAHADATPC\\\\SQLEXPRESS;Database=xxxx;User Id=xxx;Password=123456;Trust Server Certificate=True";
-            _conntectionString = "Server=SHAHADATPC\\SQLEXPRESS;Database=CSharpB17;User Id=Shahadat16;Password=123456;Trust Server Certificate=True";
+            _conntectionString = "Server=SHAHADAT-PC\\SQLEXPRESS;Database=C785;User Id=simple;Password=123456;Trust Server Certificate=True";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFramework.Migrations
 {
     [DbContext(typeof(ShopDbContext))]
-    [Migration("20240805043341_AddCustomerAndOrder")]
-    partial class AddCustomerAndOrder
+    [Migration("20240809101204_kiyu2")]
+    partial class kiyu2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

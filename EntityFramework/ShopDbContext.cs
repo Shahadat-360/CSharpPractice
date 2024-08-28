@@ -12,7 +12,8 @@ namespace EntityFramework
         private readonly string _connectionString; 
         public ShopDbContext()
         {
-            _connectionString = "Server=SHAHADATPC\\SQLEXPRESS;Database=simple;User Id=simple;Password=123456;Trust Server Certificate=True";
+            //_connectionString = "Server=SHAHADATPC\\SQLEXPRESS;Database=CSharpB17;User Id=CSharpB17;Password=123456;Trust Server Certificate=True";
+            _connectionString = "Server=SHAHADAT-PC\\SQLEXPRESS;Database=C785;User Id=simple;Password=123456;Trust Server Certificate=True";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -40,7 +41,7 @@ namespace EntityFramework
             modelBuilder.Entity<PurchaseOrder>()
                 .HasOne(x => x.Customer)
                 .WithMany(x => x.PurchaseOrders)
-                .HasForeignKey(x => x.ProductId);
+                .HasForeignKey(x => x.CustomerId);
 
             base.OnModelCreating(modelBuilder);
         }

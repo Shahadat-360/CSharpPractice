@@ -15,29 +15,29 @@ ShopDbContext shopDbContext = new ShopDbContext();
 //    },
 //    PurchaseOrders = new List<PurchaseOrder>
 //    {
-//        new PurchaseOrder{ Customer = new Customer { Name="Shahadat",Address="Gulshan"} },
+//        new PurchaseOrder{ Customer = new Customer { Name="Shahadat",Address="Gulshan"}},
 //        new PurchaseOrder{Customer= new Customer { Name="Microsoft",Address="USA"}}
 //    }
 //};
 //shopDbContext.Products.Add(product);
 
-//Product product2 = shopDbContext.Products.Where(x=>x.Name=="Camera").First();
-//Console.WriteLine(product2.Price);
+Product product2 = shopDbContext.Products.Where(x => x.Name == "Laptop").First();
+Console.WriteLine(product2.Price);
 
-//product2.Price = 20000;
+product2.Price = 20000;
 shopDbContext.SaveChanges();
 
 //shopDbContext.Products.Remove(product2);
 //shopDbContext.SaveChanges();
 
 
-Customer customer=shopDbContext.Customers.Where(x=>x.Name=="Adhi").First();
-Product product2=shopDbContext.Products.Where(x=>x.Name=="Camera")
-    .Include(x=>x.Reviews)
-    .Include(x=>x.PurchaseOrders)
-    .First();
+//Customer customer=shopDbContext.Customers.Where(x=>x.Name=="Adhi").First();
+//Product product2=shopDbContext.Products.Where(x=>x.Name=="Camera")
+//    .Include(x=>x.Reviews)
+//    .Include(x=>x.PurchaseOrders)
+//    .First();
 
-Console.WriteLine(product2.Name);
-product2.PurchaseOrders = new List<PurchaseOrder>();
-product2.PurchaseOrders.Add(new PurchaseOrder { Customer = customer });
-shopDbContext.SaveChanges();
+//Console.WriteLine(product2.Name);
+//product2.PurchaseOrders = new List<PurchaseOrder>();
+//product2.PurchaseOrders.Add(new PurchaseOrder { Customer = customer });
+//shopDbContext.SaveChanges();
