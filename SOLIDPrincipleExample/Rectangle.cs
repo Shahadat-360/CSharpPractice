@@ -13,7 +13,7 @@ namespace SOLIDPrincipleExample
 
         public double CalculateArea()
         {
-            throw new NotImplementedException();
+            return Height * Width;
         }
 
     }
