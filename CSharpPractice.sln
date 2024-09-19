@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "Extensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{6DDDE1CE-9A41-45DB-BE93-CDD9548A6888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIndexing", "ReverseIndexing\ReverseIndexing.csproj", "{2216601E-9A83-422F-A94B-AF24AA19D814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{6DDDE1CE-9A41-45DB-BE93-CDD9548A6888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DDDE1CE-9A41-45DB-BE93-CDD9548A6888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DDDE1CE-9A41-45DB-BE93-CDD9548A6888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2216601E-9A83-422F-A94B-AF24AA19D814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2216601E-9A83-422F-A94B-AF24AA19D814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2216601E-9A83-422F-A94B-AF24AA19D814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2216601E-9A83-422F-A94B-AF24AA19D814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
